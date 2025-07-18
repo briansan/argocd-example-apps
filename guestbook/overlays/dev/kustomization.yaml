@@ -1,8 +1,8 @@
 resources:
   - ../../base
 
-patchesStrategicMerge:
-  - patch-deployment.yaml
+patches:
+  - path: patch-deployment.yaml
 
 nameSuffix: -dev
 namespace: guestbook-dev
