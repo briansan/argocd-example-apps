@@ -4,5 +4,10 @@ resources:
 patches:
   - path: patch-deployment.yaml
 
+images:
+  - name: guestbook-ui
+    newName: beekay24/hangul
+    newTag: latest
+
 nameSuffix: -dev
 namespace: guestbook-dev
