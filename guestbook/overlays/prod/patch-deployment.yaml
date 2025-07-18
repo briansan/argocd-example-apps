@@ -7,5 +7,5 @@ spec:
   template:
     spec:
       containers:
-        - name: guestbook
+        - name: guestbook-ui
           image: gcr.io/google-samples/gb-frontend:v5
