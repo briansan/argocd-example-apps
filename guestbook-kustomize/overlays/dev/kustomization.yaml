@@ -17,7 +17,7 @@ namePrefix: dev-
 
 replicas:
 - name: guestbook-ui
-  count: 1
+  count: 2
 
 patches:
 - target:
