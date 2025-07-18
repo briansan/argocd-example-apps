@@ -5,7 +5,7 @@ patches:
   - path: patch-deployment.yaml
 
 images:
-  - name: guestbook-ui
+  - name: webapp
     newName: beekay24/hangul
     newTag: latest
 

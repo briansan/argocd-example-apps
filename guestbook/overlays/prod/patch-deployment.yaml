@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
         - name: guestbook-ui
-          image: gcr.io/google-samples/gb-frontend:v5
+          image: beekay24/hangul:latest
