@@ -9,6 +9,11 @@ namespace: guestbook-dev
 resources:
 - ../../base
 
+images:
+- name: webapp
+  newName: beekay24/hangul
+  newTag: latest-dev
+
 labels:
 - pairs:
     app.kubernetes.io/environment: dev
